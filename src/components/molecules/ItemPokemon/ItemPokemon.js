@@ -19,7 +19,7 @@ const ItemPokemon = ({ item }) => {
   return (
     <li onClick={() => handleClickItem(item.name)}
       className='list-group-item rounded-0 border-bottom border-1 border-start-0 border-end-0 border-secondary d-flex flex-row justify-content-between'>
-      <div className='texto fs-6 fw-bold'>{capitalizeFirstLetter(item.name.replaceAll('-',' '))}</div>
+      <div className='texto fs-6 fw-bold'>{capitalizeFirstLetter(item.replaceAll('-',' '))}</div>
       <div><Icon type="chevron-right" className='icon' /></div>
     </li>
   )
