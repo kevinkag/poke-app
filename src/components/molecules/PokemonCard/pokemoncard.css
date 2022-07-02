@@ -1,0 +1,151 @@
+.mycard {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-stats {
+    font-size: 0.7rem;
+    text-shadow: 0 0px 1px rgb(92, 92, 92);
+}
+
+.text-location {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.text-white {
+    font-size: 0.7rem;
+    text-shadow: 0 0px 1px rgb(0, 0, 0);
+}
+
+.text-name {
+    font-size: calc(1rem + 1vh);
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+    text-shadow: 0 0px 1px #000;
+}
+
+.text-moves {
+    font-size: 0.7rem;
+    color: white;
+    text-shadow: 0 1px 1px #000;
+    font-style: italic;
+    background-color: #a9cdffb0;
+    border-radius: 0.7rem;
+    border: 1px solid white;
+}
+
+.child {
+    height: 5.5rem;
+    width: 5.5rem;
+    display: inline-block;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.type {
+    width: 4rem;
+    height: auto;
+    border: 1px;
+    border-style: outset;
+    border-color: white;
+    text-shadow: 0 1px 1px #000;
+}
+
+.onetype {
+    margin-left: 2.3rem;
+}
+
+.poison {
+    background-color: rgba(150, 67, 152, 255);
+}
+
+.grass {
+    background-color: rgba(128, 201, 74, 255);
+}
+
+.bug {
+    background-color: #a9bb1e;
+}
+
+.fire {
+    background-color: #ed420f;
+    color: #ff8e6c
+}
+
+.ice {
+    background-color: rgba(130, 220, 253, 255);
+}
+
+.ground {
+    background-color: rgba(212, 173, 87, 255);
+}
+
+.rock {
+    background-color: rgba(183, 159, 87, 255);
+}
+
+.water {
+    background-color: rgba(61, 155, 252, 255);
+}
+
+.electric {
+    background-color: rgba(250, 189, 29, 255);
+}
+
+.flying {
+    background-color: rgba(138, 159, 231, 255);
+}
+
+.steel {
+    background-color: rgba(185, 185, 197, 255);
+}
+
+.dragon {
+    background-color: rgba(133, 111, 226, 255);
+}
+
+.normal {
+    background-color: rgba(210, 209, 198, 255);
+}
+
+.dark {
+    background-color: rgba(78, 59, 45, 255);
+}
+
+.fairy {
+    background-color: rgba(247, 178, 247, 255);
+}
+
+.fighting {
+    background-color: rgba(125, 53, 32, 255);
+}
+
+.ghost {
+    background-color: rgba(95, 97, 182, 255);
+}
+
+.phychic {
+    background-color: rgba(222, 73, 123, 255);
+}
+
+
+
+.container-abilities {
+    background-color:rgba(255, 0, 140, 0.438);
+    text-shadow: 1px 0px #000;
+    color:white
+    
+}
+
+.label-abilities {
+    background-color: rgba(255, 0, 140, 0.568);
+    text-shadow: 1px 0px #000;
+    color:white
+}

@@ -1,0 +1,12 @@
+.list-group-item {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.list-group-item:hover{
+    background-color:rgb(146, 255, 188);
+}
+
+.texto {
+    color: rgb(51, 51, 51);
+}

@@ -1,0 +1,20 @@
+.input {
+    border-radius: 0.5rem;
+    width: 18rem;
+    background-color: #ffcc02;
+    border-width: 1px 1px 3px 1px;
+    border-color: #caa718 #caa718 #caa718 #caa718;
+    box-shadow: 3px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    font-weight:500;
+    opacity: 0.6; /* Firefox */
+}
+
+.input:focus{
+    border: 1px dotted #ee8497;
+    outline: none;
+}

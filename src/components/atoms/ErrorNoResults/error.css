@@ -1,0 +1,11 @@
+.img-oops {
+    width: 15rem;
+    height: 15rem;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

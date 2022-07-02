@@ -1,0 +1,22 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color:#3b020d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+ colores de botons 
+#519afb boton grande circular cyan
+#01fbfb boton grande circular azul
+#ffcc02 boton largo rectangulo amarillo e input search
+#2ff901 boton largo rec- verde y circular pequenio\
+#b0b0b0 gris panalla border
+#dd082f color de pokedex y boton
+#3b020d color fondo
+#c93b3b color boton sobresalient
+
+
+*/

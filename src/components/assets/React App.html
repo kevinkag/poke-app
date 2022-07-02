@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><link type="text/css" id="dark-mode" rel="stylesheet" href="http://localhost:3000/"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <link href="./React App_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="./React App_files/bootstrap.bundle.min.js.descarga" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="./React App_files/popper.min.js.descarga" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="./React App_files/bootstrap.min.js.descarga" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js.descarga"></script><style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.App {
+  width: 100vw;
+  height: 100vh;
+  background-color:#3b020d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/*
+ colores de botons 
+#519afb boton grande circular cyan
+#01fbfb boton grande circular azul
+#ffcc02 boton largo rectangulo amarillo e input search
+#2ff901 boton largo rec- verde y circular pequenio\
+#b0b0b0 gris panalla border
+#dd082f color de pokedex y boton
+#3b020d color fondo
+#c93b3b color boton sobresalient
+
+
+*/
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsWUFBWTtFQUNaLGFBQWE7RUFDYix3QkFBd0I7RUFDeEIsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixtQkFBbUI7QUFDckI7Ozs7QUFJQTs7Ozs7Ozs7Ozs7O0NBWUMiLCJzb3VyY2VzQ29udGVudCI6WyIuQXBwIHtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiMzYjAyMGQ7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG5cblxuLypcbiBjb2xvcmVzIGRlIGJvdG9ucyBcbiM1MTlhZmIgYm90b24gZ3JhbmRlIGNpcmN1bGFyIGN5YW5cbiMwMWZiZmIgYm90b24gZ3JhbmRlIGNpcmN1bGFyIGF6dWxcbiNmZmNjMDIgYm90b24gbGFyZ28gcmVjdGFuZ3VsbyBhbWFyaWxsbyBlIGlucHV0IHNlYXJjaFxuIzJmZjkwMSBib3RvbiBsYXJnbyByZWMtIHZlcmRlIHkgY2lyY3VsYXIgcGVxdWVuaW9cXFxuI2IwYjBiMCBncmlzIHBhbmFsbGEgYm9yZGVyXG4jZGQwODJmIGNvbG9yIGRlIHBva2VkZXggeSBib3RvblxuIzNiMDIwZCBjb2xvciBmb25kb1xuI2M5M2IzYiBjb2xvciBib3RvbiBzb2JyZXNhbGllbnRcblxuXG4qLyJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.button {
+    display: flex;
+    border-width: 0px 0px 2px 1px;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    border-color: black black #ee8497 #ee8497;
+}
+
+.large {
+    width: 5rem;
+    border-radius: 1rem;
+}
+
+.circle {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0px 0px 3px 2px;
+}
+
+.red {
+    background-color: #dd082f;
+    border-color: black black #ee8497 #ee8497;
+}
+
+.cyan {
+    background-color: #01fbfb;
+    border-color: black black #ee8497 #ee8497;
+}
+
+.blue {
+    background-color: #519afb;
+    border-color: black black #ee8497 #ee8497;
+}
+
+.yellow {
+    background-color: #ffcc02;
+    border-color: black black #ee8497 #ee8497;
+}
+
+.green {
+    background-color: #2ff901;
+    border-color: black black #ee8497 #ee8497;
+}
+
+.button-relieve {
+    display: flex;
+    border-width: 1px 1px 4px 1px;
+    border-style: solid;
+    align-items: center;
+    background-color:firebrick;
+    justify-content: center;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 100%;
+    border-color: #53000049 #53000065 #5300007e #53000094;
+}
+
+.text-btn-page{
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btn-page-green {
+    color: #167a00;
+}
+.btn-page-yellow {
+    color: #886d00;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL2F0b21zL0J1dHRvbi9idXR0b24uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLDZCQUE2QjtJQUM3QixtQkFBbUI7SUFDbkIsbUJBQW1CO0lBQ25CLHVCQUF1QjtJQUN2QixhQUFhO0lBQ2IsY0FBYztJQUNkLG1CQUFtQjtJQUNuQix5Q0FBeUM7QUFDN0M7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWiw2QkFBNkI7QUFDakM7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIseUNBQXlDO0FBQzdDOztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLHlDQUF5QztBQUM3Qzs7QUFFQTtJQUNJLHlCQUF5QjtJQUN6Qix5Q0FBeUM7QUFDN0M7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIseUNBQXlDO0FBQzdDOztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLHlDQUF5QztBQUM3Qzs7QUFFQTtJQUNJLGFBQWE7SUFDYiw2QkFBNkI7SUFDN0IsbUJBQW1CO0lBQ25CLG1CQUFtQjtJQUNuQiwwQkFBMEI7SUFDMUIsdUJBQXVCO0lBQ3ZCLGFBQWE7SUFDYixjQUFjO0lBQ2QsbUJBQW1CO0lBQ25CLHFEQUFxRDtBQUN6RDs7QUFFQTtJQUNJLGlCQUFpQjtJQUNqQixpQkFBaUI7SUFDakIsMkNBQTJDO0FBQy9DOztBQUVBO0lBQ0ksY0FBYztBQUNsQjtBQUNBO0lBQ0ksY0FBYztBQUNsQiIsInNvdXJjZXNDb250ZW50IjpbIi5idXR0b24ge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGJvcmRlci13aWR0aDogMHB4IDBweCAycHggMXB4O1xyXG4gICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIHdpZHRoOiAxLjVyZW07XHJcbiAgICBoZWlnaHQ6IDEuNXJlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwMCU7XHJcbiAgICBib3JkZXItY29sb3I6IGJsYWNrIGJsYWNrICNlZTg0OTcgI2VlODQ5NztcclxufVxyXG5cclxuLmxhcmdlIHtcclxuICAgIHdpZHRoOiA1cmVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMXJlbTtcclxufVxyXG5cclxuLmNpcmNsZSB7XHJcbiAgICB3aWR0aDogM3JlbTtcclxuICAgIGhlaWdodDogM3JlbTtcclxuICAgIGJvcmRlci13aWR0aDogMHB4IDBweCAzcHggMnB4O1xyXG59XHJcblxyXG4ucmVkIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNkZDA4MmY7XHJcbiAgICBib3JkZXItY29sb3I6IGJsYWNrIGJsYWNrICNlZTg0OTcgI2VlODQ5NztcclxufVxyXG5cclxuLmN5YW4ge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAxZmJmYjtcclxuICAgIGJvcmRlci1jb2xvcjogYmxhY2sgYmxhY2sgI2VlODQ5NyAjZWU4NDk3O1xyXG59XHJcblxyXG4uYmx1ZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjNTE5YWZiO1xyXG4gICAgYm9yZGVyLWNvbG9yOiBibGFjayBibGFjayAjZWU4NDk3ICNlZTg0OTc7XHJcbn1cclxuXHJcbi55ZWxsb3cge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmY2MwMjtcclxuICAgIGJvcmRlci1jb2xvcjogYmxhY2sgYmxhY2sgI2VlODQ5NyAjZWU4NDk3O1xyXG59XHJcblxyXG4uZ3JlZW4ge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzJmZjkwMTtcclxuICAgIGJvcmRlci1jb2xvcjogYmxhY2sgYmxhY2sgI2VlODQ5NyAjZWU4NDk3O1xyXG59XHJcblxyXG4uYnV0dG9uLXJlbGlldmUge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGJvcmRlci13aWR0aDogMXB4IDFweCA0cHggMXB4O1xyXG4gICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOmZpcmVicmljaztcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgd2lkdGg6IDIuN3JlbTtcclxuICAgIGhlaWdodDogMi43cmVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMTAwJTtcclxuICAgIGJvcmRlci1jb2xvcjogIzUzMDAwMDQ5ICM1MzAwMDA2NSAjNTMwMDAwN2UgIzUzMDAwMDk0O1xyXG59XHJcblxyXG4udGV4dC1idG4tcGFnZXtcclxuICAgIGZvbnQtc2l6ZTogMC45cmVtO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBmb250LWZhbWlseTonVGltZXMgTmV3IFJvbWFuJywgVGltZXMsIHNlcmlmO1xyXG59XHJcblxyXG4uYnRuLXBhZ2UtZ3JlZW4ge1xyXG4gICAgY29sb3I6ICMxNjdhMDA7XHJcbn1cclxuLmJ0bi1wYWdlLXllbGxvdyB7XHJcbiAgICBjb2xvcjogIzg4NmQwMDtcclxufSJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.input {
+    border: 0;
+    border-radius: 0.5rem;
+    width: 18rem;
+    background-color: #ffcc02;
+    color: white;
+}
+
+.input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    font-weight:500;
+    opacity: 0.6; /* Firefox */
+}
+
+
+
+.input:focus{
+    border: 1px dotted #ee8497;
+    outline: none;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL2F0b21zL0lucHV0L2lucHV0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFNBQVM7SUFDVCxxQkFBcUI7SUFDckIsWUFBWTtJQUNaLHlCQUF5QjtJQUN6QixZQUFZO0FBQ2hCOztBQUVBLHNCQUFzQix5Q0FBeUM7SUFDM0QsWUFBWTtJQUNaLGVBQWU7SUFDZixZQUFZLEVBQUUsWUFBWTtBQUM5Qjs7OztBQUlBO0lBQ0ksMEJBQTBCO0lBQzFCLGFBQWE7QUFDakIiLCJzb3VyY2VzQ29udGVudCI6WyIuaW5wdXQge1xyXG4gICAgYm9yZGVyOiAwO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMC41cmVtO1xyXG4gICAgd2lkdGg6IDE4cmVtO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmY2MwMjtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxufVxyXG5cclxuLmlucHV0OjpwbGFjZWhvbGRlciB7IC8qIENocm9tZSwgRmlyZWZveCwgT3BlcmEsIFNhZmFyaSAxMC4xKyAqL1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgZm9udC13ZWlnaHQ6NTAwO1xyXG4gICAgb3BhY2l0eTogMC42OyAvKiBGaXJlZm94ICovXHJcbn1cclxuXHJcblxyXG5cclxuLmlucHV0OmZvY3Vze1xyXG4gICAgYm9yZGVyOiAxcHggZG90dGVkICNlZTg0OTc7XHJcbiAgICBvdXRsaW5lOiBub25lO1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.icon {
+    width: 24px;
+    height: 24px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL2F0b21zL0ljb24vaWNvbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsWUFBWTtBQUNoQiIsInNvdXJjZXNDb250ZW50IjpbIi5pY29uIHtcclxuICAgIHdpZHRoOiAyNHB4O1xyXG4gICAgaGVpZ2h0OiAyNHB4O1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.list-group-item {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.list-group-item:hover{
+    background-color:rgb(252, 67, 227);
+    color: white
+}
+
+.texto {
+    color:white;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL21vbGVjdWxlcy9JdGVtUG9rZW1vbi9pdGVtcG9rZW1vbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSw2QkFBNkI7SUFDN0IsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGtDQUFrQztJQUNsQztBQUNKOztBQUVBO0lBQ0ksV0FBVztBQUNmIiwic291cmNlc0NvbnRlbnQiOlsiLmxpc3QtZ3JvdXAtaXRlbSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLmxpc3QtZ3JvdXAtaXRlbTpob3ZlcntcclxuICAgIGJhY2tncm91bmQtY29sb3I6cmdiKDI1MiwgNjcsIDIyNyk7XHJcbiAgICBjb2xvcjogd2hpdGVcclxufVxyXG5cclxuLnRleHRvIHtcclxuICAgIGNvbG9yOndoaXRlO1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.screen {
+    height: 20rem;
+    background-color: rgb(56, 219, 165);
+
+}
+
+.background-error {
+    background-image: url(http://localhost:3000/static/media/error.97e8e0e6808ced159c2a.png);
+}
+
+.contenedor {
+    background-color: #b0b0b0;
+}
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL21vbGVjdWxlcy9TY3JlZW5Qb2tlZGV4L3NjcmVlbnBva2VkZXguY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLG1DQUFtQzs7QUFFdkM7O0FBRUE7SUFDSSx5REFBNkM7QUFDakQ7O0FBRUE7SUFDSSx5QkFBeUI7QUFDN0IiLCJzb3VyY2VzQ29udGVudCI6WyIuc2NyZWVuIHtcclxuICAgIGhlaWdodDogMjByZW07XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoNTYsIDIxOSwgMTY1KTtcclxuXHJcbn1cclxuXHJcbi5iYWNrZ3JvdW5kLWVycm9yIHtcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi9hc3NldHMvZXJyb3IucG5nKTtcclxufVxyXG5cclxuLmNvbnRlbmVkb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2IwYjBiMDtcclxufVxyXG5cclxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.pokedex {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #dd082f;
+    width: 24rem;
+    height: 38rem;
+    border-radius: 1rem;
+}
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL29yZ2FuaXNtcy9Qb2tlZGV4L3Bva2VkZXguY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLDZCQUE2QjtJQUM3Qix5QkFBeUI7SUFDekIsWUFBWTtJQUNaLGFBQWE7SUFDYixtQkFBbUI7QUFDdkIiLCJzb3VyY2VzQ29udGVudCI6WyIucG9rZWRleCB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZGQwODJmO1xyXG4gICAgd2lkdGg6IDI0cmVtO1xyXG4gICAgaGVpZ2h0OiAzOHJlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDFyZW07XHJcbn1cclxuXHJcbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div class="background"><div class="pokedex d-flex flex-column px-4 py-3 shadow-lg"><div class="d-flex flex-row"><button class="button cyan circle shadow-lg"></button><button class="button red ms-3 shadow-lg"></button><button class="button yellow ms-2 shadow-lg"></button><button class="button green ms-2 shadow-lg"></button></div><div class="contenedor p-1 mt-4 px-2 py-2 border border-1 border-dark"><div class="screen border border-2 border-dark rounded p-1"><ul class="list-group"><li class="list-group-item border-top-0 border-start-0 border-end-0 border-secondary d-flex flex-row justify-content-between"><div class="texto fs-6 fw-bold">bulbasaur</div><div><img src="./React App_files/chevron.536d2463e64800cfb566e5a45c60b051.svg" alt="icon" class="icon"></div></li><li class="list-group-item border-top-0 border-start-0 border-end-0 border-secondary d-flex flex-row justify-content-between"><div class="texto fs-6 fw-bold">ivysaur</div><div><img src="./React App_files/chevron.536d2463e64800cfb566e5a45c60b051.svg" alt="icon" class="icon"></div></li><li class="list-group-item border-top-0 border-start-0 border-end-0 border-secondary d-flex flex-row justify-content-between"><div class="texto fs-6 fw-bold">venusaur</div><div><img src="./React App_files/chevron.536d2463e64800cfb566e5a45c60b051.svg" alt="icon" class="icon"></div></li><li class="list-group-item border-top-0 border-start-0 border-end-0 border-secondary d-flex flex-row justify-content-between"><div class="texto fs-6 fw-bold">charmander</div><div><img src="./React App_files/chevron.536d2463e64800cfb566e5a45c60b051.svg" alt="icon" class="icon"></div></li><li class="list-group-item border-top-0 border-start-0 border-end-0 border-secondary d-flex flex-row justify-content-between"><div class="texto fs-6 fw-bold">charmeleon</div><div><img src="./React App_files/chevron.536d2463e64800cfb566e5a45c60b051.svg" alt="icon" class="icon"></div></li><li class="list-group-item border-top-0 border-start-0 border-end-0 border-secondary d-flex flex-row justify-content-between"><div class="texto fs-6 fw-bold">charizard</div><div><img src="./React App_files/chevron.536d2463e64800cfb566e5a45c60b051.svg" alt="icon" class="icon"></div></li><li class="list-group-item border-top-0 border-start-0 border-end-0 border-secondary d-flex flex-row justify-content-between"><div class="texto fs-6 fw-bold">squirtle</div><div><img src="./React App_files/chevron.536d2463e64800cfb566e5a45c60b051.svg" alt="icon" class="icon"></div></li></ul></div></div><div class="d-flex flex-row mt-4"><button class="button circle blue shadow-lg"></button><button class="button large green ms-3 shadow-lg text-btn-page btn-page-green">prev</button><button class="button large yellow ms-2 shadow-lg text-btn-page btn-page-yellow">next</button></div><div class="d-flex flex-row mt-3 justify-content-around"><input placeholder="Search pokemon..." class="input py-2 px-2"><button class="button-relieve shadow-lg ms-2"></button></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>

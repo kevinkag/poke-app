@@ -1,0 +1,15 @@
+.screen {
+    height: 21.5rem;
+    background-color: #c4ddff;
+    background-image: url(../../assets/bg-screen.jpg);
+    background-size: cover;
+}
+
+.screen-off {
+    background-color: rgb(39, 39, 39);
+    height: 21.5rem;
+}
+
+.background-error {
+    background-image: url(../../assets/error.png);
+}
