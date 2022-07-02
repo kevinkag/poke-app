@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/poke-app/static/css/main.dd338268.css",
+    "main.js": "/poke-app/static/js/main.b1a8f4bd.js",
+    "static/js/787.d99ee804.chunk.js": "/poke-app/static/js/787.d99ee804.chunk.js",
+    "static/media/error.png": "/poke-app/static/media/error.97e8e0e6808ced159c2a.png",
+    "static/media/pokedex.png": "/poke-app/static/media/pokedex.f7c7042023cc45e7c1b0.png",
+    "static/media/bg-screen.jpg": "/poke-app/static/media/bg-screen.cceed55701bd0d39a93a.jpg",
+    "static/media/exp.svg": "/poke-app/static/media/exp.d0341b1092cb703c8e7f4a7626dd1c26.svg",
+    "static/media/location.svg": "/poke-app/static/media/location.9d45c79da0b18b5c74c0edf94437cef7.svg",
+    "static/media/mini-pokedex.svg": "/poke-app/static/media/mini-pokedex.938270a7d3c57165d3138d7732c08955.svg",
+    "index.html": "/poke-app/index.html",
+    "static/media/reload.svg": "/poke-app/static/media/reload.80bc330ecf09dc0c427d6b90f071e14f.svg",
+    "static/media/power.svg": "/poke-app/static/media/power.fa5d43f6ce4755b0cfa943e6afbcf923.svg",
+    "static/media/help.svg": "/poke-app/static/media/help.50e490c832a1e840a5a26ab3f1a25f27.svg",
+    "static/media/chevron.svg": "/poke-app/static/media/chevron.91ef2270bcf2fbd694420af527bd41d4.svg",
+    "main.dd338268.css.map": "/poke-app/static/css/main.dd338268.css.map",
+    "main.b1a8f4bd.js.map": "/poke-app/static/js/main.b1a8f4bd.js.map",
+    "787.d99ee804.chunk.js.map": "/poke-app/static/js/787.d99ee804.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd338268.css",
+    "static/js/main.b1a8f4bd.js"
+  ]
+}
